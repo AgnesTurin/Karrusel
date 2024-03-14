@@ -3,6 +3,16 @@
   src: url(../styles.css/fonts/urbanist-variablefont_wght-webfont.woff2-kopi);
 }
 
+/* farver og fonte */
+
+:root {
+  --backgroundColor: #140345;
+  --textColor: #fffbfb;
+}
+
+/* Generelt styling */
+
 body {
-  background-color: #140345;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
 }
